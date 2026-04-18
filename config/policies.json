@@ -1,1 +1,10 @@
-{}
+{
+  "api-key-auth-inbound": {
+    "name": "api-key-auth-inbound",
+    "policyType": "api-key-auth-inbound",
+    "handler": {
+      "export": "ApiKeyAuthInboundPolicy",
+      "module": "$import(@zuplo/runtime)"
+    }
+  }
+}

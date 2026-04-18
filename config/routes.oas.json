@@ -9,9 +9,9 @@
             "export": "urlForwardHandler",
             "module": "$import(@zuplo/runtime)",
             "options": { "baseUrl": "https://serpflow.vercel.app" }
-          }
-        },
-        "responses": { "200": { "description": "OK" } }
+          },
+          "policies": ["api-key-auth-inbound"]
+        }
       }
     }
   }
