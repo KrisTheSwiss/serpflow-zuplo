@@ -1,0 +1,1 @@
+{ "name": "remove-auth", "policyType": "request-header-modifier", "handler": { "export": "RequestHeaderModifierPolicy", "module": "$import(@zuplo/runtime)", "options": { "remove": ["authorization"] } } }
